@@ -1,0 +1,12 @@
+INP
+STA num1
+INP
+STA num2
+SUB num1
+BRZ 08
+LDA num1
+ADD num2
+OUT
+HLT
+num1 DAT
+num2 DAT
