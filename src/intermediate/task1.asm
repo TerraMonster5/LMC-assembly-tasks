@@ -3,10 +3,9 @@ STA num1
 INP
 STA num2
 SUB num1
-BRP 09
+BRP 08
 LDA num1
-OUT
-BRA 11
+BRA 09
 LDA num2
 OUT
 HLT
