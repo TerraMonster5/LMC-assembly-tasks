@@ -37,5 +37,5 @@ total DAT
 mulBase DAT
 mulCount DAT
 mulTot DAT
-// ZERO DAT
+ZERO DAT
 ONE DAT 1
