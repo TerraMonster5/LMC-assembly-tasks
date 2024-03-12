@@ -1,14 +1,12 @@
-INP
+start INP
 BRZ end
-STA temp
 SUB num
 BRP swap
-BRA 00
-swap LDA temp
+BRA start
+swap ADD num
 STA num
-BRA 00
+BRA start
 end LDA num
 OUT
 HLT
 num DAT
-temp DAT
